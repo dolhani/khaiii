@@ -23,6 +23,8 @@ class Kakao():
         [('자연주의', 'NNG'), ('쇼핑몰', 'NNG'), ('은', 'JX'), ('어떤', 'MM'), ('곳', 'NNG'), ('이', 'VCP'), ('ㄴ가', 'EF'), ('?', 'SF')]
 
     .. _khiiii: https://github.com/kakao/khaiii
+
+    reference: konlpy https://github.com/konlpy/konlpy
     """
 
     def pos(self, phrase, flatten=True, join=False):
