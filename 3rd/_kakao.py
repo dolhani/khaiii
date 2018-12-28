@@ -15,7 +15,7 @@ class Kakao():
         >>> # khaiii installation needed
         >>> from konlpy.tag import Kakao
         >>> kakao = Kakao()
-        >>> print(kakao.morphs(u'우왕 khaiii 오픈소스가 되었어요')
+        >>> print(kakao.morphs(u'우왕 khaiii 오픈소스가 되었어요'))
         ['우왕', 'khaiii', '오픈', '소', '스', '가', '되', '었', '어요']
         >>> print(kakao.nouns(u'우리나라에는 무릎 치료를 잘하는 정형외과가 없는가!'))
         ['우리나라', '무릎', '치료', '정형', '외과']
